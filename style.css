@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+    font-family: "lucida Sans";
+}
+.sub-container {
+    display: flex;
+}
+.container1, .container2 {
+    width: 300px;
+    height: 670px;
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 2px lightgrey;
+}
+
+.container2 {
+    margin-left: 70px;
+}
+.container1 {
+    background-color: #ffffff;
+}
+#image {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid black; */
+    background-image: url("./IMG_3345.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-color: inherit;
+}
+#text {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 180px;
+    font-family: 'Lucida Sans';
+    /* font-size: rem; */
+}
+#destination {
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px 2px lightgrey;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#sub-destination {
+    display: flex;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    /* margin-top: 40px; */
+}
+.fa-plane-arrival, .fa-plane-departure, .fa-arrow-left {
+    margin-top: 10px;
+
+}
+#from {
+    margin-left: 10px;
+    color: gray;
+    margin-top: 10px;
+
+}
+h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans'
+}
+.circle, .circle2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+.circle2 {
+    margin-left: 90px;
+}
+#direction {
+    display: block;
+}
+#angle {
+    display: flex;
+}
+.fa-angle-right {
+    color: rgb(155, 151, 151);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#second {
+    color: white;
+    margin-left: 0px;
+}
+#go, #next {
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#next {
+    margin-left: 20px;
+}
+#phone-icons {
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#date {
+    font-size: 0.8rem;
+}
+.fa-signal {
+    margin-left: 160px;
+    font-size: 0.8rem;
+}
+.fa-wifi {
+    margin-left: 7px;
+    font-size: 0.8rem;
+}
+.fa-battery-full {
+    margin-left: 7px;
+    font-size: 0.8rem;
+}
+.dashed-circle {
+    width: 200px;
+    height: 100px;
+    border-radius: 56%;
+    border-top: 2px dashed black;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: block;
+}
+#flight-icons {
+    display: flex;
+    margin-top: 10px;
+}
+#flight-depart {
+    margin-left: -25px;
+    margin-top: 10px;
+}
+#flight-arrival {
+    margin-left: 210px;
+}
+#flight-name {
+    display: flex;
+
+}
+#dhk, #sin {
+    margin-left: -25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#sin {
+    margin-left: 180px;
+}
+#flight-lang {
+    display: flex;
+    margin-top: -25px;
+}
+#lang, #lang1 {
+    color: lightgrey;
+    font-size: 0.6rem;
+    margin-left: 25px;
+}
+#lang1 {
+    margin-left: 80px;
+}
+#details {
+    background-color: white;
+    border-radius: 15px;
+    height: 350px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    display: block;
+    box-shadow: 1px 1px 2px 2px lightgrey;
+
+}
+h2 {
+    /* margin-top: 30px; */
+    padding: 20px;
+    font-family: "Lucida Sans";
+}
+#round {
+    display: flex;
+    width: 230px;
+    height: 40px;
+    background-color: rgb(250, 243, 243);
+    border-radius: 0px 10px 10px 0px;
+}
+/* .fa-clock {
+    margin-top: 10px;
+    margin-left: 10px;
+}  */
+#round-text, #round-text1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#round-text1 {
+    margin-top: 0px;
+}
+#round-click {
+    width: 35px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+#round-click:hover {
+    background-color:darkgreen;
+    transition: all 1.4s ease;
+}
+.fa-circle {
+    color: #ffffff;
+    margin-left: 14px;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px 2px rgb(250, 243, 243);
+}
+#white {
+    cursor: pointer;
+}
+#white:hover {
+    margin-left: -12px;
+    transition: all 1.4s ease;
+}
+.departure {
+    display: flex
+}
+#grey-circle, #grey-circle1 {
+    color: rgb(250, 243, 243);
+    font-size: 0.7rem;
+    margin-top: 15px;
+}
+#grey-circle1 {
+    margin-left: 110px;
+}
+#sub-departure {
+    display: flex;
+}
+#broken-lines {
+    height: 30px;
+    border-left: 2px dashed black;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+#depart, #depart1, #depart2 {
+    margin-left: 20px;
+    color: lightgray;
+    margin-top: 8px;
+    font-size: 0.7rem;
+}
+#depart1 {
+    margin-left: 40px;
+}
+#depart2 {
+    margin-left: 35px;
+}
+#plus {
+    display: flex;
+    width: 65px;
+    height: 35px;
+    background-color: rgb(250, 243, 243);
+    margin-top: -10px;
+    border-radius: 10px;
+    margin-left: 75px;
+}
+.fa-window-minimize {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#plus-sign {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.last {
+    display: flex;
+}
+#first {
+    width: 30px;
+    height: 45px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    display: flex;
+    box-shadow: 0.5px 0.5px 1px 1px lightgrey;
+}
+.fa-angle-left {
+    color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#left1 {
+    margin-left: 0px;
+    color: rgb(155, 151, 151) ;
+}
+#sync, #plane-left, #plane-right, #business, #user {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+#plane-right {
+    margin-top: 0px;
+}
+
+@media (max-width: 750px) {
+    .sub-container {
+        display: inline-block;
+    }
+    .container1, .container2 {
+        margin-left: 50px;
+    }
+    #date, .fa-signal, .fa-wifi, .fa-battery-full {
+        margin-top: 20px;
+    }
+}
